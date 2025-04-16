@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "make_this_importable"
-version = "0.2.0"
+version = "0.3.0"
 
 
 [tool.setuptools]
-packages = ["some_dir"]
+packages = ["some_dir", "another_dir"]
